@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace ShoppingCart.Business.Commands
 {
+
+    //Komutları oluşturuyor ve soyutlamak için kullanırız
     public interface ICommand
     {
         void Execute();

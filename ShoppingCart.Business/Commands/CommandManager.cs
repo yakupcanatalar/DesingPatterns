@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ShoppingCart.Business.Commands
 {
+    //Sıraya alıyor ve ekleme ve çıkarma işlemlerinin sağlıklı yapılmasını sağlıyor.
     public class CommandManager
     {
         private Stack<ICommand> commands = new Stack<ICommand>();
