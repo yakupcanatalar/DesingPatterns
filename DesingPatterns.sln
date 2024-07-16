@@ -7,6 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "Strategy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonDesingPattern", "SingletonDesingPattern\SingletonDesingPattern.csproj", "{D7A4A1A0-6664-4171-AB2C-90673BC60A80}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommandDesingPattern", "CommandDesingPattern", "{B2E694B1-D1BA-4C29-B771-ABF59C90BF34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart.Windows", "D:\Personal\Desing Pattern Courses\c-sharp-command-pattern\02\demos\ShoppingCart.Windows\ShoppingCart.Windows.csproj", "{F2B3BD3E-28CD-417E-B459-195FE4700AD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart", "ShoppingCart\ShoppingCart.csproj", "{B6056236-54D5-49F1-BD41-9403E5C0BB16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart.Business", "ShoppingCart.Business\ShoppingCart.Business.csproj", "{B5DB2ED3-8361-42FE-8264-71A90D35DDE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +29,26 @@ Global
 		{D7A4A1A0-6664-4171-AB2C-90673BC60A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7A4A1A0-6664-4171-AB2C-90673BC60A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7A4A1A0-6664-4171-AB2C-90673BC60A80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2B3BD3E-28CD-417E-B459-195FE4700AD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2B3BD3E-28CD-417E-B459-195FE4700AD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2B3BD3E-28CD-417E-B459-195FE4700AD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2B3BD3E-28CD-417E-B459-195FE4700AD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6056236-54D5-49F1-BD41-9403E5C0BB16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6056236-54D5-49F1-BD41-9403E5C0BB16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6056236-54D5-49F1-BD41-9403E5C0BB16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6056236-54D5-49F1-BD41-9403E5C0BB16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5DB2ED3-8361-42FE-8264-71A90D35DDE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5DB2ED3-8361-42FE-8264-71A90D35DDE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5DB2ED3-8361-42FE-8264-71A90D35DDE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5DB2ED3-8361-42FE-8264-71A90D35DDE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F2B3BD3E-28CD-417E-B459-195FE4700AD1} = {B2E694B1-D1BA-4C29-B771-ABF59C90BF34}
+		{B6056236-54D5-49F1-BD41-9403E5C0BB16} = {B2E694B1-D1BA-4C29-B771-ABF59C90BF34}
+		{B5DB2ED3-8361-42FE-8264-71A90D35DDE0} = {B2E694B1-D1BA-4C29-B771-ABF59C90BF34}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CBCCBC5C-0BF7-4BBF-9160-8A1A18D502DD}
