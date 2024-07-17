@@ -17,9 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingCart.Business", "Sh
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandDesingPatternExample2", "CommandDesingPatternExample2\CommandDesingPatternExample2.csproj", "{375E6CB5-0B8F-4997-89AA-A3ED3993CCB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePattern", "BridgePattern\BridgePattern.csproj", "{265BB1F3-BA48-4C27-985A-FC69F324FE62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgePattern", "BridgePattern\BridgePattern.csproj", "{265BB1F3-BA48-4C27-985A-FC69F324FE62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullObjectPattern", "NullObjectPattern\NullObjectPattern.csproj", "{6813E8E9-5EA0-4FFD-AAEA-9D99B9B67936}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullObjectPattern", "NullObjectPattern\NullObjectPattern.csproj", "{6813E8E9-5EA0-4FFD-AAEA-9D99B9B67936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadeDesignPattern", "FacadeDesingPattern\FacadeDesignPattern.csproj", "{919F7A10-6D06-4C8A-9B3A-9A35BBD44CD8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{6813E8E9-5EA0-4FFD-AAEA-9D99B9B67936}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6813E8E9-5EA0-4FFD-AAEA-9D99B9B67936}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6813E8E9-5EA0-4FFD-AAEA-9D99B9B67936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{919F7A10-6D06-4C8A-9B3A-9A35BBD44CD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{919F7A10-6D06-4C8A-9B3A-9A35BBD44CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{919F7A10-6D06-4C8A-9B3A-9A35BBD44CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{919F7A10-6D06-4C8A-9B3A-9A35BBD44CD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
