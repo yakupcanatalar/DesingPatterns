@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{6D5C1A5F-C43E-4F9A-A36A-DCE81D62E6BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{6D5C1A5F-C43E-4F9A-A36A-DCE81D62E6BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonDesingPattern", "SingletonDesingPattern\SingletonDesingPattern.csproj", "{D7A4A1A0-6664-4171-AB2C-90673BC60A80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonDesingPattern", "SingletonDesingPattern\SingletonDesingPattern.csproj", "{D7A4A1A0-6664-4171-AB2C-90673BC60A80}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommandDesingPattern", "CommandDesingPattern", "{B2E694B1-D1BA-4C29-B771-ABF59C90BF34}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart.Windows", "D:\Personal\Desing Pattern Courses\c-sharp-command-pattern\02\demos\ShoppingCart.Windows\ShoppingCart.Windows.csproj", "{F2B3BD3E-28CD-417E-B459-195FE4700AD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart", "ShoppingCart\ShoppingCart.csproj", "{B6056236-54D5-49F1-BD41-9403E5C0BB16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingCart", "ShoppingCart\ShoppingCart.csproj", "{B6056236-54D5-49F1-BD41-9403E5C0BB16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart.Business", "ShoppingCart.Business\ShoppingCart.Business.csproj", "{B5DB2ED3-8361-42FE-8264-71A90D35DDE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingCart.Business", "ShoppingCart.Business\ShoppingCart.Business.csproj", "{B5DB2ED3-8361-42FE-8264-71A90D35DDE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandDesingPatternExample2", "CommandDesingPatternExample2\CommandDesingPatternExample2.csproj", "{375E6CB5-0B8F-4997-89AA-A3ED3993CCB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandDesingPatternExample2", "CommandDesingPatternExample2\CommandDesingPatternExample2.csproj", "{375E6CB5-0B8F-4997-89AA-A3ED3993CCB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePattern", "BridgePattern\BridgePattern.csproj", "{265BB1F3-BA48-4C27-985A-FC69F324FE62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{375E6CB5-0B8F-4997-89AA-A3ED3993CCB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{375E6CB5-0B8F-4997-89AA-A3ED3993CCB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{375E6CB5-0B8F-4997-89AA-A3ED3993CCB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{265BB1F3-BA48-4C27-985A-FC69F324FE62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{265BB1F3-BA48-4C27-985A-FC69F324FE62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{265BB1F3-BA48-4C27-985A-FC69F324FE62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{265BB1F3-BA48-4C27-985A-FC69F324FE62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
